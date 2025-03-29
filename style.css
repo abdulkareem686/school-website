@@ -1,0 +1,102 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.navbar-brand img {
+    filter: brightness(0) invert(1); /* White logo */
+}
+
+.hero {
+    padding-top: 80px; /* Adjust for fixed navbar */
+    padding-bottom: 80px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.hero .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.hero .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.hero .btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.hero .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.bg-primary {
+    background-color: #007bff !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
